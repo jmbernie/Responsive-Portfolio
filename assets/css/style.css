@@ -1,0 +1,105 @@
+body {
+    background-color: #efeee7;
+    font-color: #333333;
+    font: "Georgia";
+    margin: 4%;
+ 	<!--padding: 10%;-->
+}
+
+header{
+	background-color: #333333
+}
+
+.container{
+	width:1024px;
+	margin: 0 auto;
+}
+
+nav {
+    background-color: #FFFFFF;
+    margin: 0px;
+    padding: 20px;
+    padding-left: 24px;
+}
+
+form {
+    line-height: 2;
+}
+
+
+
+a{
+    text-decoration: unset;
+    float: right;
+    padding: 20px;
+    padding-top: 0px;
+}
+
+h1 {
+    <!-- "Your Name" -->
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #4aaaa5;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 10;
+    padding-left: 24px;
+    font-size: 28px;
+    width: 199px;
+}
+
+h2 {
+    <!-- "About Me" -->
+    background-color: #FFFFFF;
+    color: #4aaaa5;
+    border:24px;
+    font-size: 24px;
+    text-align: left;
+    width: 400px;
+    float: left;
+	text-align: center;
+}
+
+img {
+    <!-- background-color: #FFFFFF; -->
+    <!-- color: #4aaaa5; -->
+    border: 40px;
+    padding-left: 24px;
+    width: 150px;
+    float: left; 
+    <!--text-align: center;-->
+    margin: 0px;
+    padding: 44px;
+
+}
+
+hr{
+    Width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+br {
+    <!-- line breaks-->
+    background-color: #dddddd;
+
+}
+
+p {
+    <!--text block-->
+    color: #777777
+    margin: 0;
+    padding: 20;
+    padding-top: 10px;
+    padding-right: 77px;
+    padding-bottom: 0px;
+    padding-left: 49px;
+    line-height: 2;
+
+}
+
+#main-bio,
+#contact-info,
+#bio-image {
+	float: left;
+}
