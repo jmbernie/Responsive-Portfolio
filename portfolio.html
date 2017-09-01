@@ -7,20 +7,31 @@
   <title>Things I made</title>
 
   <!-- Add a CSS Reference Here! -->
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
 
 
 </head>
 
 <body>
 
-  <nav>
-  <h1>Jesse Bernier</h1>
-  
-  <a target="_blank" href="contact.html">Contact</a>
-  <a target="_blank" href="portfolio.html">Portfolio</a>
-  <a target="_blank" href="index.html">About</a>
-  
+  <nav class="navbar navbar-default">
+    <div class="row">
+        <div class="col-md-9">
+          <h1>Jesse Bernier</h1>
+        </div>
+        <div class="col-md-1">
+          <a target="_blank" href="contact.html">Contact</a>
+        </div>
+        <div class="col-md-1">
+          <a target="_blank" href="portfolio.html">Portfolio</a>
+        </div>
+        <div class="col-md-1">        
+          <a target="_blank" href="index.html">About</a>
+        </div>
+    </div>
   
 
   </nav>
@@ -29,48 +40,73 @@
 
 
   <nav>
-  <h2>Portfolio</h2>
- 
-  <hr>
+  <div class="row">
+    <div class="col-lg-9">
+      <h2>Portfolio</h2>
+    </div>
 
-  <div style="max-width:200px;margin-top:100px">
-
-  <div>
-    <div>
-      <h3>Cityscape</h3>
-      <img src="assets/images/cityscape.jpg" alt="Cityscape" style="width:140%">
-    </div>
-    <div>
-      <h3>Veggies</h3>
-      <img src="assets/images/food.jpg" alt="Veggies" style="width:140%">
-    </div>
-    <div>
-      <h3>Nighttime</h3>
-      <img src="assets/images/nighttime.jpg" alt="Nighttime" style="width:140%">
-    </div>
-    <div>
-      <h3>Pattern</h3>
-      <img src="assets/images/pattern.jpg" alt="Pattern" style="width:140%">
-    </div>
-    <div>
-      <h3>Showtime</h3>
-      <img src="assets/images/show.jpg" alt="Show" style="width:140%">
-      <h3>.</h3>
+    <div class="col-lg-3">
+      <section class="sidebar">
+        <div id="connect">
+          <!--<h2>Connect with Me</h2>-->
+          <div class="col-lg-4">
+            <a href="#"><img src="assets/images/GitHub-Mark.png" class="social" alt="GitHub" width="99x" /></a>
+          </div>
+          <div class="col-lg-4">
+            <a href="#"><img src="assets/images/linkedin.png" class="social" alt="LinkedIn" width="99px"/></a>
+          </div>
+          <div class="col-lg-4">
+            <a href="#"><img src="assets/images/StackOverflow.png" class="social" alt="Stack Overflow" width="99px"/></a>
+          </div>
+        </div>
+      </section>
     </div>
   </div>
-<!--  <ul>
-    <li>one</li>
-    </br>
-    <li>two</li>
-    </br>
-    <li>three</li>
-    </br>
-    <li>four</li>
-    </br>
-    <li>five</li>
-    </br>
-  </ul>
--->
+  <hr>
+
+<!--<div class="wrapper">  <!-- style="max-width:200px;margin-top:100px">-->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class = "work">
+          <img src="assets/images/cityscape.jpg" alt="Cityscape" style="width:90%">
+          <h3>Cityscape</h3>
+        </div>
+      </div>
+      <div class="col-md-4"> 
+        <div class = "work">   
+          <img src="assets/images/food.jpg" alt="Veggies" style="width:90%">
+          <h3>Veggies</h3>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class = "work">   
+          <img src="assets/images/nighttime.jpg" alt="Nighttime" style="width:90%"> 
+          <h3>Nighttime</h3>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class = "work">   
+          <img src="assets/images/pattern.jpg" alt="Pattern" style="width:90%">
+          <h3>Pattern</h3>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4"> 
+        <div class = "work">   
+          <img src="assets/images/show.jpg" alt="Show" style="width:90%">
+          <h3>Showtime</h3>
+        </div>
+        <!--<h3>.</h3>-->
+      </div>
+    </div>
+  </div>
+
+
   
 
   </nav>

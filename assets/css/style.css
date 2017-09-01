@@ -10,8 +10,12 @@ header{
 	background-color: #333333
 }
 
+footer {
+    max-width: 100%;
+}
+
 .container{
-	width:1024px;
+	/*width:1024px;*/
 	margin: 0 auto;
 }
 
@@ -25,8 +29,6 @@ nav {
 form {
     line-height: 2;
 }
-
-
 
 a{
     text-decoration: unset;
@@ -44,7 +46,7 @@ h1 {
     padding: 10;
     padding-left: 24px;
     font-size: 28px;
-    width: 199px;
+    width: 299px;
 }
 
 h2 {
@@ -59,7 +61,7 @@ h2 {
 	text-align: center;
 }
 
-img {
+/*img {
     <!-- background-color: #FFFFFF; -->
     <!-- color: #4aaaa5; -->
     border: 40px;
@@ -70,7 +72,7 @@ img {
     margin: 0px;
     padding: 44px;
 
-}
+}*/
 
 hr{
     Width: 100%;
@@ -93,10 +95,52 @@ p {
     padding-top: 10px;
     padding-right: 77px;
     padding-bottom: 0px;
-    padding-left: 49px;
+    padding-left: 39px;
     line-height: 2;
 
 }
+/* pages.html: 980px, 768px, 640px*/
+
+@media screen and (max-width: 980px) {
+  /* The body's bg color will be #333 */
+  body {
+    background-color: #blue;
+    /*background-color: #333; orig color*/
+
+  }
+
+  /* The wrapper's width will be 600px */
+  .wrapper {
+    width: 800px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* The body's bg color will be #333 */
+  body {
+    background-color: #red;
+    /*background-color: #333; orig color*/    
+  }
+
+  /* The wrapper's width will be 600px */
+  .wrapper {
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  /* The body's bg color will be #333 */
+  body {
+    background-color: #green;
+    /*background-color: #333; orig color*/
+  }
+
+  /* The wrapper's width will be 600px */
+  .wrapper {
+    width: 500px;
+  }
+}
+
 
 #main-bio,
 #contact-info,
